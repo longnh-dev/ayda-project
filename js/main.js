@@ -242,11 +242,11 @@
             if (validity.valid) return;
 
             // If field is required and empty
-            if (validity.valueMissing) return 'Please enter an email address.';
+            if (validity.valueMissing) return 'Vui lòng nhập địa chỉ Email.';
 
             // If not the right type
             if (validity.typeMismatch) {
-                if (field.type === 'email') return 'Please enter a valid email address.';
+                if (field.type === 'email') return 'Vui lòng nhập địa chỉ Email hợp lệ.';
             }
 
             // If pattern doesn't match
