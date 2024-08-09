@@ -5,7 +5,7 @@ var data_js = {
     "access_token": "{your access token}"
 };
 
-function js_onSuccess() {
+function js_onSuccess() { 
 
     window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
 }

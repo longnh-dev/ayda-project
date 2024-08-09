@@ -3302,7 +3302,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     display             : block;
-    background-image    : url(../images/background/intro-bg-img.jpg);
+    background-image    : url(../images/background/bg-image.jpg);
     background-color: brown;
     background-repeat   : no-repeat;
     background-position : center;
@@ -3362,12 +3362,12 @@ img.u-pull-left {
 
 .s-intro__content-bg {
     display             : block;
-    background-image    : url(../images/background/bg-image.jpg);
+    background-image    : url(../images/background/intro-bg-img.jpg);
     background-color: #6e6e6d;
     background-repeat   : no-repeat;
-    background-position : center;
+    background-position : right;
     background-size     : cover;
-    width               : 500px;
+    width               : 450px;
     position            : absolute;
     top                 : var(--content-padding-top);
     right               : var(--gutter);
